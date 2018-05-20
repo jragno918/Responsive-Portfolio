@@ -215,4 +215,72 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+
+  @media (max-width: 768px) {
+    .main-section{
+      width: 96%;
+      max-width: 768px;
+      margin-left: 15px;
+    }
+  
+    nav{
+      margin-right: 30px;
+    }
+  
+    .auth-image{
+      width: 400px;
+      margin-bottom: 20px;
+    }
+  
+    /* Portafolio 768 */
+  
+    .work{
+      width: 46%;
+    }
+  }
+  
+  @media (max-width: 640px) {
+  
+    #masthead{
+      position: static;
+    }
+  
+    #logo{
+      width: 100%;
+      max-width: 640px;
+    }
+  
+    nav{
+      text-align: center;
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    nav a{
+      width: 30%;
+      padding: 0;
+      margin: 0;
+    }
+  
+    #main-container{
+      padding-top: 0px;
+    }
+    .main-section{
+      width: 95%;
+      max-width: 640px;
+      margin-left: 15px;
+    }
+  
+    .auth-image{
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  
+    /* Portafolio 640 */
+  
+    .work{
+      width: 99%;
+    }
+  }
+  
   
